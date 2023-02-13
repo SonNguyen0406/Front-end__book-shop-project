@@ -1,0 +1,20 @@
+.blog {
+    padding: 0 10rem 3rem 10rem;
+}
+
+.blog-card {
+    width: 100%;
+    padding: 0 0 2rem 0;
+}
+.blog-card .ant-card-cover img {
+    height: 250px;
+}
+
+.blog-card button,
+.blog-card button:hover {
+    background: var(--green);
+    color: white !important;
+    margin-top: 1rem;
+    width: 150px;
+    height: 50px;
+}

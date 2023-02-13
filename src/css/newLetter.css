@@ -1,0 +1,31 @@
+.newsletter{
+    background:url(../img/letter-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.form-newLetter {
+    max-width: 45rem;
+    margin-left: auto;
+    text-align: center;
+    padding: 5rem 10rem;
+}
+
+.form-newLetter .form-newLetter-title {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.form-newLetter input {
+    height: 2.5rem
+}
+
+.form-newLetter button,
+.form-newLetter button:hover {
+    background: var(--green);
+    color: white !important;
+    margin-top: 1rem;
+    width: 120px;
+    height: 40px;
+}

@@ -1,0 +1,62 @@
+.book-detail {
+    margin-top: 4.5rem;
+    padding: 2rem 10rem 5rem 10rem;
+    background-color: white;
+}
+
+.book-detail .img__item img {
+    width: 100px;
+    padding-bottom: 10px;
+}
+
+.book-detail .img__item img:hover {
+    transform: scale(1.2);
+}
+
+.book-detail .product__main-img img {
+    width: 300px;
+}
+
+.book-detail .price span {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.book-detail .category span {
+    background-color: var(--green);
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+
+.book-detail .addTOCart__btn {
+    background-color: var(--green);
+    color: white;
+    width: 100px;
+    height: 40px;
+}
+
+.book-detail .addTOCart__btn:hover {
+    color: white;
+    background-color: var(--hover-green);
+}
+
+.tabs {
+    border-bottom: 1px solid var(--hover-green);
+}
+
+.tabs h5 {
+    cursor: pointer;
+    padding-right: 20px;
+}
+
+.tab__content {
+    padding: 30px 0px;
+}
+
+.tab__content p {
+    line-height: 30px;
+}
+
+.tab__active {
+    color: var(--green);
+}

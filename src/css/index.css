@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+:root {
+    --green: #27ae60;
+    --hover-green: #4bc48c;
+    --border: rgb(214, 206, 206);
+    --hover-border: black;
+}
+
+.ant-divider-inner-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}

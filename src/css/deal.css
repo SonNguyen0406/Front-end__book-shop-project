@@ -1,0 +1,22 @@
+.deal {
+    padding: 3rem 10rem;
+}
+
+.deal-content button,
+.deal-content button:hover{
+    background: var(--green);
+    color: white !important;
+    margin-top: 1rem;
+    width: 150px;
+    height: 50px;
+}
+
+.deal-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deal-img img {
+    width: 500px
+}

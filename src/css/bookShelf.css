@@ -1,0 +1,31 @@
+.book-shelf {
+    display: flex;
+    margin: 70px 0 0 0;
+    padding: 3rem 10rem ;
+    background: url(../img/banner-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.book-shelf-content {
+    width: 50%;
+}
+
+.book-shelf-content button,
+.book-shelf-content button:hover {
+    background: var(--green);
+    color: white !important;
+    margin-top: 1rem;
+    width: 150px;
+    height: 50px;
+}
+
+.book-shelf-swiper {
+    width: 50%;
+    flex:1 1 45rem;
+    text-align: center;
+}
+
+.book-shelf-swiper img {
+    height: 20rem
+}

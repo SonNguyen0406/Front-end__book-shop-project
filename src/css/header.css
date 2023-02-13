@@ -1,0 +1,71 @@
+#header {
+  padding: 0 !important;
+  background: white !important;
+}
+
+.header-1 {
+  padding: 0 10rem;
+  font-size: 2rem;
+  height: 70px;
+}
+
+.header-2 {
+  display: flex;
+  justify-content: center;
+  padding: 0 10rem;
+  background-color: var(--green);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.header-2.active {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.header-1-logo a {
+  font-size: 2rem;
+  color: var(--green);
+}
+
+.header-1-search {
+  display: flex;
+  align-items: center;
+}
+
+.header-1-search .input-search span:hover {
+  border-color: var(--green);
+}
+
+.header-1-search .input-search button {
+  background-color: var(--green);
+}
+
+.header-1-search .input-search button:hover {
+  background-color: var(--hover-green);
+}
+
+.header-1-icon-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-1-icon-nav .anticon {
+  padding-left: 20px;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.ant-menu-item-selected {
+  color: black !important;
+}
+
+.ant-menu-light.ant-menu-horizontal > .ant-menu-item:hover::after,
+.ant-menu-light.ant-menu-horizontal > .ant-menu-item-selected::after {
+  border-color: black !important;
+}

@@ -1,0 +1,46 @@
+.new-book {
+    padding: 0 10rem 3rem 10rem;
+}
+
+.new-book .new-book-swiper {
+    border: 1px solid var(--border);
+    background-color: white;
+    width: 100%;
+    padding: 2rem 1rem;
+    background: linear-gradient(15deg, #eee 40%, #fff 30%);
+}
+
+.new-book .new-book-swiper:hover {
+    border: 2px solid black;
+}
+
+.new-book .new-book-swiper img {
+    height: 15rem;
+    width: 12rem;
+}
+
+.new-book-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.new-book-content-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.new-book-content-price {
+    display: flex;
+    align-items: center;
+    line-height: 10px;
+}
+
+.new-book-content-price div {
+    padding-left: 20px;
+}
+
+.new-book-content-start-rate .anticon {
+    font-size: 1rem;
+    color: var(--green);
+}

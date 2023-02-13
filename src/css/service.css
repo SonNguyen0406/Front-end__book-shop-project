@@ -1,0 +1,14 @@
+.service {
+    padding: 3rem 10rem;
+}
+
+.service .anticon {
+    font-size: 3rem;
+    color: var(--green);
+    padding-left: 20px;
+}
+
+.service-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}

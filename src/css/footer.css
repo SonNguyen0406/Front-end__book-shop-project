@@ -1,0 +1,14 @@
+#footer {
+    padding: 0 !important;
+    background: var(--green) !important;
+}
+
+.footer {
+    padding: 2rem 10rem;
+}
+
+
+.footer .ant-list-item-meta-avatar a,
+.footer .ant-list-item-meta-content a{
+    color: white;
+}
